@@ -5,7 +5,9 @@ package aufgabe1
 //          verketteten Liste. Die zu implementierende Funktion ist eine Methode dieses Structs.
 // MAX. PUNKTE: 10
 
-// LengthGreater5 gibt true zurück, wenn die Länge der Liste größer als 5 ist, sonst false.
+// LengthGreater5 gibt true zurück,
+// wenn die Länge der Liste größer als 5 ist,
+// ansonsten false.
 func (n *Node) LengthGreater5() bool {
 	length := 0
 	for !n.IsEmpty() {

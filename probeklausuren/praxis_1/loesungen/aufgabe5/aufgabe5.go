@@ -6,8 +6,10 @@ package aufgabe5
 // MAX. PUNKTE: 10
 
 // PathStrings liefert eine Liste aller existierenden Pfade im Baum.
-// Ein Pfad wird dabei durch einen String der Form "llr" oder "rlr" o.Ä. dargestellt.
-// Dabei steht l für "links" und r für "rechts", der String beschreibt den Weg durch den Baum.
+// Ein Pfad wird dabei durch einen String
+// der Form "llr" oder "rlr" o.Ä. dargestellt.
+// Dabei steht l für "links" und r für "rechts",
+// der String beschreibt den Weg durch den Baum.
 func (n *Node) PathStrings() []string {
 	result := []string{}
 	if n.IsEmpty() {

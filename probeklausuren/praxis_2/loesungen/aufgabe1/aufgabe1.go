@@ -5,8 +5,10 @@ package aufgabe1
 //          verketteten Liste. Die zu implementierende Funktion ist eine Methode dieses Structs.
 // MAX. PUNKTE: 10
 
-// Sum gibt die Summe aller Werte in der Liste zurück.
-// Wenn die Liste leer ist, soll 0 zurückgegeben werden.
+// Sum gibt die Summe aller
+// Werte in der Liste zurück.
+// Wenn die Liste leer ist,
+// soll 0 zurückgegeben werden.
 func (n *Node) Sum() int {
 	sum := 0
 	for !n.IsEmpty() {
